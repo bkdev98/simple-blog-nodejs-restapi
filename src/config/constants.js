@@ -1,13 +1,13 @@
 const devConfig = {
-  MONGO_URL: 'mongodb://localhost/makeanodejsapi-dev',
+  MONGO_URL: 'mongodb://localhost/inspery-dev',
 };
 
 const testConfig = {
-  MONGO_URL: 'mongodb://localhost/makeanodejsapi-test',
+  MONGO_URL: 'mongodb://localhost/inspery-test',
 };
 
 const prodConfig = {
-  MONGO_URL: 'mongodb://localhost/makeanodejsapi-prod',
+  MONGO_URL: 'mongodb://localhost/inspery-prod',
 };
 
 const defaultConfig = {
