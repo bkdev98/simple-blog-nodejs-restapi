@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/bkdev98/inspery-api#readme",
   "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.17.2",
     "compression": "^1.6.2",
     "cross-env": "^5.0.1",
