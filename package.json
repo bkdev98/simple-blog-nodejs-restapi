@@ -32,6 +32,8 @@
     "helmet": "^3.6.1",
     "joi": "^10.6.0",
     "mongoose": "^4.11.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
     "validator": "^8.0.0"
   },
   "devDependencies": {
