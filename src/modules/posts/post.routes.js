@@ -1,10 +1,10 @@
 import { Router } from 'express';
 
 import * as postController from './post.controllers';
-import { authLocal } from '../../services/auth.services';
+import { authJwt } from '../../services/auth.services';
 
 const routes = new Router();
 
-routes.post('/', authLocal, postController.createPost);
+routes.post('/', authJwt, postController.createPost);
 
 export default routes;
