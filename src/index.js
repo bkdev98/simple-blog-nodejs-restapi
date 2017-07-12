@@ -12,7 +12,7 @@ const app = express();
 middlewaresConfig(app);
 
 app.get('/', (req, res) => {
-  res.send('Hello world!');
+  res.send('Inspery 💡');
 });
 
 apiRoutes(app);
@@ -26,7 +26,7 @@ app.listen(constants.PORT, err => {
       ---
       Running on ${process.env.NODE_ENV} ☎️
       ---
-      Make something great 💡
+      Make something inspery 💡
     `);
   }
 });
