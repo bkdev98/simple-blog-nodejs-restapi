@@ -7,6 +7,7 @@ import postValidation from './post.validations';
 
 const routes = new Router();
 
+//  Posts
 routes.post(
   '/',
   authJwt,
@@ -22,5 +23,8 @@ routes.patch(
   postController.updatePost,
 );
 routes.delete('/:id', authJwt, postController.deletePost);
+
+//  Favorites
+routes.post('/:id/favorites', authJwt, postController.favoritePost);
 
 export default routes;
