@@ -30,4 +30,3 @@ export default {
   ...defaultConfig,
   ...envConfig(process.env.NODE_ENV),
 };
-
