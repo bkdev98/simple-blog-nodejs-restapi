@@ -112,6 +112,9 @@ UserSchema.methods = {
       }
 
       return this.save();
+    },
+    isPostIsFavorite(postId) {
+      return (this.favorites.posts.indexOf(postId) >= 0);
     }
   }
 };
