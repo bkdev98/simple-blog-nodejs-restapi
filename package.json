@@ -1,7 +1,7 @@
 {
-  "name": "inspery-api",
+  "name": "node-rest-api",
   "version": "1.0.0",
-  "description": "Inspery Restful API 💡",
+  "description": "NodeJS Restful API Demo 💡",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bkdev98/inspery-api.git"
+    "url": "git+https://github.com/bkdev98/node-rest-api.git"
   },
   "keywords": [
     "inspery",
@@ -20,9 +20,9 @@
   "author": "bkdev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bkdev98/inspery-api/issues"
+    "url": "https://github.com/bkdev98/node-rest-api/issues"
   },
-  "homepage": "https://github.com/bkdev98/inspery-api#readme",
+  "homepage": "https://github.com/bkdev98/node-rest-api#readme",
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.17.2",

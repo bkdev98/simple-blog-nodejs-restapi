@@ -26,7 +26,7 @@ app.listen(constants.PORT, err => {
       ---
       Running on ${process.env.NODE_ENV} ☎️
       ---
-      Make something inspery 💡
+      Let's create greatness 💡
     `);
   }
 });
